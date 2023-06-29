@@ -1,3 +1,43 @@
+@charset "utf-8";@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);@import url(https://scp-wiki.wdfiles.com/local--files/component%3Atheme/font-bauhaus.css);@font-face {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://scpwiki.github.io/sigma/fonts/Inter-roman.var.woff2?v=3.19') format('woff2')
+}
+
+@font-face {
+    font-family: Inter;
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('https://scpwiki.github.io/sigma/fonts/Inter-italic.var.woff2?v=3.19') format('woff2')
+}
+
+@font-face {
+    font-family: 'Sans Normalcy';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://scpwiki.github.io/sigma/fonts/Sans-Normalcy.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://scpwiki.github.io/sigma/fonts/NanumGothic-Regular.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('https://scpwiki.github.io/sigma/fonts/NanumGothic-Bold.woff2') format('woff2')
+}
+
 body {
     font-size: .95em;
     color: #333;
