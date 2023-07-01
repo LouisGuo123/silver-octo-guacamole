@@ -6,4 +6,4 @@ window.onscroll = function () {
   console.log(window.scrollY);
 };
 
-console.log("Hello, World!");
+alert("hello!");
