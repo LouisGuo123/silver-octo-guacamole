@@ -3,3 +3,7 @@ window.onload = function () {
   document.getElementById("html-body").style.height = "initial";
   document.getElementById("load-cover").style.display = "none";
 };
+
+window.onscroll = function (event) {
+  console.log(window.scrollY);
+};
