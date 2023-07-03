@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
+    <title>ModestGreen - Test Page 2 - SCP Sandbox III</title>
+
+    <script
+      type="text/javascript"
+      src="https://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/init.combined.js"
+    ></script>
+    <script type="text/javascript">
+      var URL_HOST = "www.wikidot.com";
+      var URL_DOMAIN = "wikidot.com";
+      var USE_SSL = true;
+      var URL_STATIC = "https://d3g0gp89917ko0.cloudfront.net/v--291054f06006";
+      // global request information
+
+      var WIKIREQUEST = {};
+      WIKIREQUEST.info = {};
+
+      WIKIREQUEST.info.domain = "scp-sandbox-3.wikidot.com";
+      WIKIREQUEST.info.siteId = 1697776;
+      WIKIREQUEST.info.siteUnixName = "scp-sandbox-3";
+      WIKIREQUEST.info.categoryId = 13884634;
+      WIKIREQUEST.info.themeId = 1;
+      WIKIREQUEST.info.requestPageName = "modestgreen-test-page-2";
+      OZONE.request.timestamp = 1688311147;
+      OZONE.request.date = new Date();
+      WIKIREQUEST.info.lang = "en";
+      WIKIREQUEST.info.pageUnixName = "modestgreen-test-page-2";
+      WIKIREQUEST.info.pageId = 1448690781;
+      WIKIREQUEST.info.lang = "en";
+      OZONE.lang = "en";
+      var isUAMobile =
+        !!/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        );
+    </script>
+
+    <script type="text/javascript">
+      require.config({
+        baseUrl: URL_STATIC + "/common--javascript",
+        paths: {
+          "jquery.ui": "jquery-ui.min",
+          "jquery.form": "jquery.form",
+        },
+      });
+    </script>
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="content-language" content="en" />
+    <script
+      type="text/javascript"
+      src="https://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--javascript/WIKIDOT.combined.js"
+    ></script>
+
+    <style type="text/css" id="internal-style">
+      /* modules */
       @import url(https://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--modules/css/pagerate/PageRateWidgetModule.css);
+
+      /* theme */
       @import url(https://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--theme/base/css/style.css);
       @import url(https://scp-sandbox-3.wikidot.com/component:theme/code/1);
+
+      /* custom */
       @import url(style.css);
     </style>
+
+    <link
+      rel="shortcut icon"
+      href="https://scp-sandbox-3.wikidot.com/local--favicon/favicon.gif"
+    />
+    <link
+      rel="icon"
+      type="image/gif"
+      href="https://scp-sandbox-3.wikidot.com/local--favicon/favicon.gif"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      href="/common--images/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/common--images/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/common--images/apple-touch-icon-114x114.png"
+    />
+
+    <link
+      rel="alternate"
+      type="application/wiki"
+      title="Edit this page"
+      href="javascript:WIKIDOT.page.listeners.editClick()"
+    />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-18234656-1"]);
+      _gaq.push(["_setDomainName", "none"]);
+      _gaq.push(["_setAllowLinker", true]);
+      _gaq.push(["_trackPageview"]);
+
+      _gaq.push(["old._setAccount", "UA-68540-5"]);
+      _gaq.push(["old._setDomainName", "none"]);
+      _gaq.push(["old._setAllowLinker", true]);
+      _gaq.push(["old._trackPageview"]);
+    </script>
+
+    <script
+      type="text/javascript"
+      src="https://d3g0gp89917ko0.cloudfront.net/v--291054f06006/common--modules/js/pagerate/PageRateWidgetModule.js"
+    ></script>
   </head>
   <body id="html-body">
     <div id="skrollr-body">
@@ -17,7 +126,7 @@
           <div id="container">
             <div id="header">
               <h1>
-                <a href="https://scp-sandbox-3.wikidot.com/"
+                <a href="https://scp-sandbox-3.wikidot.com/" target="_top"
                   ><span>SCP Sandbox III</span></a
                 >
               </h1>
@@ -25,10 +134,14 @@
               <h2><span>Sandbox III: Revenge of the Sandbox</span></h2>
 
               <div id="search-top-box" class="form-search">
-                <form id="search-top-box-form" class="input-append">
-                  <fieldset
-                    disabled="disabled"
-                    style="padding: 0; border: 0; margin: 0"
+                <fieldset
+                  disabled="disabled"
+                  style="padding: 0; border: 0; margin: 0"
+                >
+                  <form
+                    id="search-top-box-form"
+                    action="dummy"
+                    class="input-append"
                   >
                     <input
                       id="search-top-box-input"
@@ -43,20 +156,22 @@
                       name="search"
                       value="Search"
                     />
-                  </fieldset>
-                </form>
+                  </form>
+                </fieldset>
               </div>
 
               <div id="top-bar">
                 <div class="top-bar">
                   <ul>
                     <li>
-                      <a href="https://scp-sandbox-3.wikidot.com/start"
+                      <a
+                        href="https://scp-sandbox-3.wikidot.com/start"
+                        target="_top"
                         >Front Page</a
                       >
                     </li>
                     <li>
-                      <a href="https://scpwiki.com/"
+                      <a href="https://scpwiki.com/" target="_top"
                         >SCP Foundation Main Page</a
                       >
                     </li>
@@ -68,12 +183,14 @@
                   </div>
                   <ul>
                     <li>
-                      <a href="https://scp-sandbox-3.wikidot.com/start"
+                      <a
+                        href="https://scp-sandbox-3.wikidot.com/start"
+                        target="_top"
                         >Front Page</a
                       >
                     </li>
                     <li>
-                      <a href="https://scpwiki.com/"
+                      <a href="https://scpwiki.com/" target="_top"
                         >SCP Foundation Main Page</a
                       >
                     </li>
@@ -81,17 +198,17 @@
                 </div>
               </div>
 
-              <div id="login-status">
+              <div id="login-status" style="display: none">
                 <a
                   href="javascript:;"
-                  onclick="openInNewTab('https://www.wikidot.com/default--flow/login__CreateAccountScreen?originSiteId=1697776')"
+                  onclick="WIKIDOT.page.listeners.createAccount(event)"
                   class="login-status-create-account btn"
                   >Create account</a
                 >
                 <span>or</span>
                 <a
                   href="javascript:;"
-                  onclick="openInNewTab('https://www.wikidot.com/default--flow/login__LoginPopupScreen?originSiteId=1697776&openerUri=https://scp-sandbox-3.wikidot.com')"
+                  onclick="WIKIDOT.page.listeners.loginClick(event)"
                   class="login-status-sign-in btn btn-primary"
                   >Sign in</a
                 >
@@ -105,27 +222,31 @@
               <div id="side-bar">
                 <div class="side-block media" style="padding: 10px 0">
                   <div style="text-align: center">
-                    <a href="https://www.facebook.com/scpfoundation"
+                    <a
+                      href="https://www.facebook.com/scpfoundation"
+                      target="_top"
                       ><img
                         src="https://scp-wiki.wdfiles.com/local--files/nav:side/social-facebook.png"
                         alt="Facebook"
                         class="image" /></a
-                    ><a href="https://twitter.com/scpwiki"
+                    ><a href="https://twitter.com/scpwiki" target="_top"
                       ><img
                         src="https://scp-wiki.wdfiles.com/local--files/nav:side/social-twitter.png"
                         alt="Twitter"
                         class="image" /></a
-                    ><a href="https://www.reddit.com/r/SCP"
+                    ><a href="https://www.reddit.com/r/SCP" target="_top"
                       ><img
                         src="https://scp-wiki.wdfiles.com/local--files/nav:side/social-reddit.png"
                         alt="Reddit"
                         class="image" /></a
-                    ><a href="https://www.instagram.com/scpfoundationwiki"
+                    ><a
+                      href="https://www.instagram.com/scpfoundationwiki"
+                      target="_top"
                       ><img
                         src="https://scp-wiki.wdfiles.com/local--files/nav:side/social-instagram.png"
                         alt="Instagram"
                         class="image" /></a
-                    ><a href="https://www.twitch.tv/scpwiki"
+                    ><a href="https://www.twitch.tv/scpwiki" target="_top"
                       ><img
                         src="https://scp-wiki.wdfiles.com/local--files/nav:side/social-twitch.png"
                         alt="Twitch"
@@ -140,7 +261,9 @@
                       src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/home.png"
                       alt="home.png"
                       class="image"
-                    /><a href="/">Main</a>
+                    /><a href="https://scp-sandbox-3.wikidot.com/" target="_top"
+                      >Main</a
+                    >
                   </div>
                   <div class="heading">
                     <p>Authors' Resources</p>
@@ -154,14 +277,17 @@
                     Per
                     <a
                       href="https://scpwiki.com/forum/t-10629348/new-draft-forum-policies"
+                      target="_top"
                       >the greenlighting policy</a
                     >, first-time authors <strong>must</strong> get concepts
                     reviewed in the
-                    <a href="https://scpwiki.com/forum/c-89000"
+                    <a href="https://scpwiki.com/forum/c-89000" target="_top"
                       >Ideas Critique Forum</a
                     >
                     or
-                    <a href="https://scpwiki.com/chat-guide">IRC chatrooms</a>
+                    <a href="https://scpwiki.com/chat-guide" target="_top"
+                      >IRC chatrooms</a
+                    >
                     before creating a feedback thread in the Drafts and Critique
                     forum. Draft critique can still be sought via IRC and PM
                     without greenlights.<br />
@@ -172,7 +298,7 @@
                     />
                     When you have a draft that you know for sure the audience
                     will like, bring it to
-                    <a href="https://scpwiki.com/forum/c-50864"
+                    <a href="https://scpwiki.com/forum/c-50864" target="_top"
                       >Drafts Critique Forum</a
                     >. Please note that the forums move much slower than the
                     chat, and the draft forum moves slower than the ideas
@@ -183,7 +309,9 @@
                       class="image"
                     />
                     The mainsite-run
-                    <a href="https://scpwiki.com/chat-guide">IRC chatrooms</a>
+                    <a href="https://scpwiki.com/chat-guide" target="_top"
+                      >IRC chatrooms</a
+                    >
                     are the most reliable source of real-time critique
                     discussion.
                   </div>
@@ -196,7 +324,9 @@
                       alt="series.png"
                       class="image"
                     />
-                    <a href="https://scp-sandbox-3.wikidot.com/system:join"
+                    <a
+                      href="https://scp-sandbox-3.wikidot.com/system:join"
+                      target="_top"
                       >Join the Site!</a
                     ><br />
                     <img
@@ -214,7 +344,9 @@
                       class="image"
                     />
                     For collaborative pages, please read the instructions
-                    <a href="https://scpwiki.com/zyns-co-authoring-tips#toc5"
+                    <a
+                      href="https://scpwiki.com/zyns-co-authoring-tips#toc5"
+                      target="_top"
                       >here</a
                     >.<br />
                     <img
@@ -243,14 +375,16 @@
                       src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/main.png"
                       alt="main.png"
                       class="image"
-                    /><a href="https://scpwiki.com">SCP Wiki</a>
+                    /><a href="https://scpwiki.com" target="_top">SCP Wiki</a>
                   </div>
                   <div class="menu-item">
                     <img
                       src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/help.png"
                       alt="help.png"
                       class="image"
-                    /><a href="https://scpwiki.com/how-to-write-an-scp"
+                    /><a
+                      href="https://scpwiki.com/how-to-write-an-scp"
+                      target="_top"
                       >How to Write an SCP</a
                     >
                   </div>
@@ -259,20 +393,26 @@
                       src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/help.png"
                       alt="help.png"
                       class="image"
-                    /><a href="https://scpwiki.com/guide-hub">Guide Hub</a>
+                    /><a href="https://scpwiki.com/guide-hub" target="_top"
+                      >Guide Hub</a
+                    >
                   </div>
                 </div>
                 <div class="side-block resources">
                   <div class="collapsible-block">
                     <div class="collapsible-block-folded">
-                      <a class="collapsible-block-link">Admin</a>
+                      <a class="collapsible-block-link" href="javascript:;"
+                        >Admin</a
+                      >
                     </div>
                     <div
                       class="collapsible-block-unfolded"
                       style="display: none"
                     >
                       <div class="collapsible-block-unfolded-link">
-                        <a class="collapsible-block-link">Admin</a>
+                        <a class="collapsible-block-link" href="javascript:;"
+                          >Admin</a
+                        >
                       </div>
                       <div class="collapsible-block-content">
                         <div class="menu-item">
@@ -280,7 +420,9 @@
                             src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/main.png"
                             alt="main.png"
                             class="image"
-                          /><a href="https://scp-sandbox-3.wikidot.com/_admin"
+                          /><a
+                            href="https://scp-sandbox-3.wikidot.com/_admin"
+                            target="_top"
                             >Site Manager</a
                           >
                         </div>
@@ -289,7 +431,9 @@
                             src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/default.png"
                             alt="default.png"
                             class="image"
-                          /><a href="https://www.wikidot.com/doc:wiki-syntax"
+                          /><a
+                            href="https://www.wikidot.com/doc:wiki-syntax"
+                            target="_top"
                             >Wiki Syntax</a
                           >
                         </div>
@@ -298,16 +442,21 @@
                             src="https://scp-sandbox-3.wdfiles.com/local--files/nav:side/default.png"
                             alt="default.png"
                             class="image"
-                          /><a href="https://scp-sandbox-3.wikidot.com/nav:side"
+                          /><a
+                            href="https://scp-sandbox-3.wikidot.com/nav:side"
+                            target="_top"
                             >Side</a
                           >
                           |
-                          <a href="https://scp-sandbox-3.wikidot.com/nav:top"
+                          <a
+                            href="https://scp-sandbox-3.wikidot.com/nav:top"
+                            target="_top"
                             >Top</a
                           >
                           |
                           <a
                             href="https://scp-sandbox-3.wikidot.com/component:theme"
+                            target="_top"
                             >Theme</a
                           >
                         </div>
@@ -325,8 +474,6 @@
                 /></a>
               </div>
 
-              <!-- google_ad_section_end -->
-
               <div id="main-content">
                 <div id="action-area-top"></div>
 
@@ -340,13 +487,15 @@
                           >0</span
                         ></span
                       ><span class="rateup btn btn-default"
-                        ><a title="I like it">+</a></span
+                        ><a title="I like it" href="javascript:;">+</a></span
                       ><span class="cancel btn btn-default"
-                        ><a title="Cancel my vote">x</a></span
+                        ><a title="Cancel my vote" href="javascript:;"
+                          >x</a
+                        ></span
                       >
                     </div>
                   </div>
-                  <div
+                  <!-- <div
                     class="scp-image-block block-right"
                     style="width: WIDTH-GOES-HERE"
                   >
@@ -360,8 +509,8 @@
                     <div class="scp-image-caption">
                       <p>CAPTION-GOES-HERE</p>
                     </div>
-                  </div>
-                  <table class="wiki-content-table">
+                  </div> -->
+                  <!-- <table class="wiki-content-table">
                     <tbody>
                       <tr>
                         <th>header</th>
@@ -379,36 +528,120 @@
                         <td>cell-content</td>
                       </tr>
                     </tbody>
-                  </table>
-                  <ul>
+                  </table> -->
+                  <!-- <ul>
                     <li>list item</li>
                     <li>list item</li>
-                  </ul>
+                  </ul> -->
                   <p><strong>Item #:</strong> SCP-XXXX</p>
+                  <p><strong>Object Class: </strong>Safe</p>
                   <p>
-                    <strong>Object Class:</strong> Safe/Euclid/Keter (indicate
-                    which class)
+                    <strong>Special Containment Procedures: </strong>SCP-XXXX is
+                    to be monitored at all times to ensure its influence doesn't
+                    extend beyond its current
+                    <span class="choose-random-child"
+                      ><span>ability</span><span>capability</span></span
+                    >. No other containment procedures are
+                    <span class="choose-random-child"
+                      ><span>necessary</span><span>required</span></span
+                    >
+                    at this time.
                   </p>
                   <p>
-                    <strong>Special Containment Procedures:</strong> [Paragraphs
-                    explaining the procedures]
+                    <strong>Description: </strong>SCP-XXXX is an anomolous
+                    phenomenon associated with the Foundation's
+                    <span class="choose-random-child"
+                      ><span>article</span><span>report</span></span
+                    >
+                    written on it. The anomoly causes text to occasionally be
+                    <span class="choose-random-child"
+                      ><span>replaced</span><span>modified</span></span
+                    >, usually with minor changes. Such changes include
+                    replacing words with synonyms, restructuring sentences, and
+                    adding
+                    <span class="choose-random-child"
+                      ><span>new</span><span>novel</span><span></span
+                    ></span>
+                    adjectives. Rarely, entirely new content is appended to the
+                    article. Anomolous edits can identified through the edit log
+                    of the article, where they are
+                    <span class="choose-random-child"
+                      ><span>marked</span><span>listed</span></span
+                    >
+                    as unauthorized.
                   </p>
                   <p>
-                    <strong>Description:</strong> [Paragraphs explaining the
-                    description]
+                    The anomoly's behaviour has changed a number of times. The
+                    first notable change occured when Dr.
+                    <redacted>Kaur</redacted> replaced all page content with the
+                    article on SCP-<redacted>6969</redacted>, and the second
+                    occured when the anomoly was redesignated from SCP-<redacted
+                      >4420</redacted
+                    >
+                    to SCP-XXXX.
                   </p>
                   <p>
-                    <strong>Addendum:</strong> [Optional additional paragraphs]
+                    <strong>Addendum XXXX-01: </strong>The article was
+                    originally a placeholder, created on 09/03/2022.
+                    Unauthorized edits were discovered on 02/04/2023, by Dr.
+                    <redacted>Kaur</redacted> when writing about
+                    SCP-<redacted>6969</redacted>.
                   </p>
+                  <p>
+                    <strong>Addendum XXXX-02: </strong>As requested by Dr.
+                    <redacted>imtoolazy</redacted> and Dr.
+                    <redacted>imstillverylazy</redacted>, below is a list of all
+                    known anomolous edits:
+                  </p>
+                  <ul>
+                    <li>
+                      01/01/2023 00:00 - Add "Hello World!" at top of page
+                    </li>
+                    <li>
+                      01/08/2023 02:41 - Add "\n&lt;script>alert("Hello
+                      World!")&lt;/script>" after "Hello, World!"
+                    </li>
+                    <li>
+                      01/08/2023 02:43 - Remove "Hello World!", remove
+                      "&lt;script>alert("Hello World!")&lt;/script>", add
+                      "&lt;p>Hello World!&lt;/p>"
+                    </li>
+                    <li>
+                      01/08/2023 02:44 - Remove "&lt;p>Hello World!&lt;/p>"
+                    </li>
+                    <li>
+                      01/19/2023 13:37 - Add "[[div]]\nHello, World!\n[[/div]]"
+                    </li>
+                    <li>
+                      01/19/2023 13:56 - Add "\n* Hello World!\n* Hello,
+                      World!\n* Hello World!"
+                    </li>
+                    <li>
+                      01/20/2023 07:14 - Insert "[[module CSS]]\n.hello-world
+                      {\ncolor: red;\n}\n[[/module]]\n" at top of page, insert
+                      "class=\"hello-world\"" at [[div &lt;&lt; line 1
+                    </li>
+                    <li>
+                      01/31/2023 04:47 - Delete "[[module CSS]]\n.hello-world
+                      {\ncolor: red;\n}\n[[/module]]\n[[div
+                      class=\"hello-world\"]]\nHello, World!\n[[/div]]\n* Hello
+                      World!\n* Hello World!\n* Hello, World!", add
+                      "[[html]]&lt;p>Hello, World!&lt;/p>[[/html]]"
+                    </li>
+                  </ul>
                   <div class="footer-wikiwalk-nav">
                     <div style="text-align: center">
                       <p>
                         «
-                        <a href="https://scp-sandbox-3.wikidot.com/scp-xxxw"
+                        <a
+                          href="https://scp-sandbox-3.wikidot.com/scp-xxxw"
+                          target="_top"
                           >SCP-XXXW</a
                         >
                         | SCP-XXXX |
-                        <a href="https://scp-sandbox-3.wikidot.com/scp-xxxy"
+                        <a
+                          href="https://scp-sandbox-3.wikidot.com/scp-xxxy"
+                          target="_top"
                           >SCP-XXXY</a
                         >
                         »
@@ -427,27 +660,35 @@
 
             <div id="footer" style="display: block; visibility: visible">
               <div class="options" style="display: block; visibility: visible">
-                <a href="http://www.wikidot.com/doc" id="wikidot-help-button"
+                <a
+                  href="http://www.wikidot.com/doc"
+                  target="_top"
+                  id="wikidot-help-button"
                   >Help</a
                 >
                 &nbsp;|
                 <a
                   href="http://www.wikidot.com/legal:terms-of-service"
+                  target="_top"
                   id="wikidot-tos-button"
                   >Terms of Service</a
                 >
                 &nbsp;|
                 <a
                   href="http://www.wikidot.com/legal:privacy-policy"
+                  target="_top"
                   id="wikidot-privacy-button"
                   >Privacy</a
                 >
                 &nbsp;|
-                <a id="bug-report-button">Report a bug</a>
+                <a href="javascript:;" id="bug-report-button">Report a bug</a>
                 &nbsp;|
-                <a id="abuse-report-button">Flag as objectionable</a>
+                <a href="javascript:;" id="abuse-report-button"
+                  >Flag as objectionable</a
+                >
               </div>
-              Powered by <a href="http://www.wikidot.com">Wikidot.com</a>
+              Powered by
+              <a href="http://www.wikidot.com" target="_top">Wikidot.com</a>
             </div>
 
             <div id="extrac-div-1"><span></span></div>
